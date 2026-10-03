@@ -1,0 +1,100 @@
+{
+  "name": "Outcomes",
+  "version": "1.0.0",
+  "updated": "2026-10-03",
+  "color": {
+    "forest": "#20382c",
+    "paper": "#f8f5ec",
+    "citron": "#e4ff85",
+    "terracotta": "#d86b48",
+    "deepForest": "#14291f",
+    "rust": "#9d402c",
+    "softInk": "#536052",
+    "sage": "#e9eadf",
+    "sand": "#e8dfc9",
+    "illustrationSage": "#dce6df",
+    "lavender": "#e8e3f0"
+  },
+  "typography": {
+    "display": {
+      "family": "Instrument Serif",
+      "weight": 400,
+      "styles": [
+        "normal",
+        "italic"
+      ]
+    },
+    "body": {
+      "family": "DM Sans Variable",
+      "weightRange": [
+        400,
+        650
+      ]
+    },
+    "caption": {
+      "family": "Courier New",
+      "fallback": "monospace"
+    },
+    "sizePx": {
+      "caption": 10,
+      "body": 16,
+      "subheading": 28,
+      "section": 64,
+      "hero": 112
+    },
+    "bodyLineHeight": 1.8
+  },
+  "spacingPx": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "radiusPx": {
+    "paper": 4,
+    "interface": 8,
+    "pill": 999
+  },
+  "motion": {
+    "hoverMs": 250,
+    "layersMs": 500,
+    "signatureMs": 1600,
+    "connectionMs": 1800,
+    "claySettleMs": 4600,
+    "ease": "cubic-bezier(.22,.61,.36,1)",
+    "principles": [
+      "Finite automatic sequences",
+      "Use scroll and interaction to reveal relationships",
+      "Respect prefers-reduced-motion",
+      "All meaning readable without motion"
+    ]
+  },
+  "art": {
+    "clay": {
+      "material": "Matte clay / warm directional light",
+      "camera": "Three-quarter orthographic",
+      "background": "Transparent",
+      "embeddedText": false
+    },
+    "paper": {
+      "tiltDegrees": [
+        -12,
+        10
+      ],
+      "shadow": "0 15px 30px rgba(32,56,44,.15)",
+      "lettering": "Real HTML or editable vector text"
+    }
+  },
+  "accessibility": {
+    "bodyContrastMinimum": 4.5,
+    "largeTextContrastMinimum": 3,
+    "focus": "2px rust outline with 5px offset",
+    "note": "Use terracotta decoratively; use rust for small text on paper."
+  }
+}

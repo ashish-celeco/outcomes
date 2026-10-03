@@ -1,0 +1,17 @@
+:root {
+  --outcomes-forest: #20382c;
+  --outcomes-paper: #f8f5ec;
+  --outcomes-citron: #e4ff85;
+  --outcomes-terracotta: #d86b48;
+  --outcomes-deepForest: #14291f;
+  --outcomes-rust: #9d402c;
+  --outcomes-softInk: #536052;
+  --outcomes-sage: #e9eadf;
+  --outcomes-sand: #e8dfc9;
+  --outcomes-illustrationSage: #dce6df;
+  --outcomes-lavender: #e8e3f0;
+  --outcomes-display: "Instrument Serif", Georgia, serif;
+  --outcomes-body: "DM Sans Variable", Arial, sans-serif;
+  --outcomes-caption: "Courier New", monospace;
+  --outcomes-ease: cubic-bezier(.22,.61,.36,1);
+}
